@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+myenv/
+venv/
+ENV/
+env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+./counterfeit_detector.h5
+
+node_modules/
+
+
+
+# Uploaded files
+uploads/
+
+# Logs
+logs/
+*.log
+
+# Local settings
+.env
+.flaskenv
+.python-version
+
+# OS specific
+.DS_Store
+Thumbs.db 
