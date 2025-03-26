@@ -44,8 +44,6 @@ model = tf.keras.models.load_model(model_path)
 # Create uploads folder if it doesn't exist
 os.makedirs('uploads', exist_ok=True)
 
-
-
 def model_predict(img_path, model):
     img = cv2.imread(img_path, cv2.IMREAD_COLOR)
 
